@@ -6,7 +6,7 @@ const App = () => {
   let [name,setName] = useState("");
   // let [greet ,setGreet] = useState("")
   function getName(e){
-    setName(`Hello ${e.target.value} !`)
+    setName(`Hello ${e.target.value}!`)
     // setGreet(`hello ${name} !`)
   }
   return (
